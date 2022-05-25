@@ -9,7 +9,7 @@ const PokemonCard = () => {
         <div className='PokemonCard'>
             <Icon name='favorite' color={FAV_COLOR} />
             <Image centered src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png' alt='Pokemon From'/>
-            <p className='Pokemon-title'> Ditto </p>
+            <h2 className='PokemonCard-title'> Ditto </h2>
             <Label color={MAIN_COLOR}> Normal </Label>
         </div>
     </Grid.Column>
